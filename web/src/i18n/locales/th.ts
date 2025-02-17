@@ -247,11 +247,11 @@ const en = {
             cancel: 'ยกเลิก'
         },
         account: {
-          title: 'Account',
-          webAccount: 'Web Account Name',
-          password: 'Password',
-          updateBtn: 'Change',
-          logoutBtn: 'Logout'
+          title: 'บัญชี',
+          webAccount: 'ชื่อผู้ใช้',
+          password: 'รหัสผ่าน',
+          updateBtn: 'ยืนยัน',
+          logoutBtn: 'ออกจากระบบ'
         }
       }
     }
