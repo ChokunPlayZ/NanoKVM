@@ -73,17 +73,17 @@ const en = {
         ctrlaltdel: 'Ctrl+Alt+Del'
       },
       mouse: {
-        default: 'Default cursor',
-        pointer: 'Pointer cursor',
-        cell: 'Cell cursor',
-        text: 'Text cursor',
-        grab: 'Grab cursor',
-        hide: 'Hide cursor',
-        mode: 'Mouse mode',
-        absolute: 'Absolute mode',
-        relative: 'Relative mode',
-        requestPointer: 'Using relative mode. Please click desktop to get mouse pointer.',
-        resetHid: 'Reset HID'
+        default: 'ตัวชี้เริ่มต้น',
+        pointer: 'ตัวชี้แบบชี้',
+        cell: 'ตัวชี้แบบเซลล์',
+        text: 'ตัวชี้แบบข้อความ',
+        grab: 'ตัวชี้แบบจับ',
+        hide: 'ซ่อนตัวชี้',
+        mode: 'โหมดเมาส์',
+        absolute: 'โหมดสัมบูรณ์',
+        relative: 'โหมดสัมพัทธ์',
+        requestPointer: 'กำลังใช้โหมดสัมพัทธ์ กรุณาคลิกที่เดสก์ท็อปเพื่อรับตัวชี้เมาส์',
+        resetHid: 'รีเซ็ต HID'
       },
       image: {
         title: 'Image',
