@@ -165,11 +165,11 @@ const en = {
           community: 'ชุมชน'
         },
         appearance: {
-          title: 'Appearance',
-          display: 'Display',
-          language: 'Language',
-          menuBar: 'Menu Bar',
-          menuBarDesc: 'Display icons in the menu bar'
+            title: 'ลักษณะการแสดงผล',
+            display: 'การแสดงผล',
+            language: 'ภาษา',
+            menuBar: 'แถบเมนู',
+            menuBarDesc: 'แสดงไอคอนในแถบเมนู'
         },
         device: {
           title: 'Device',
