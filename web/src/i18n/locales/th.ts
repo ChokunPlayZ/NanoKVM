@@ -138,17 +138,17 @@ const en = {
         ok: 'ยืนยัน'
       },
       download: {
-        title: 'Download Image',
-        input: 'Please enter a remote image URL',
-        ok: 'Ok',
-        disabled: '/data partition is RO, so we cannot download the image'
+        title: 'ดาวโหลด Disk Image',
+        input: 'กรุณาใส่ลิงค์ของ Disk Image.',
+        ok: 'ยืนยัน',
+        disabled: '/data มีการตั้งค่าเป็นอ่านอย่างเดียว ดังนั้นเราไม่สามารถดาวโหลด Disk Image ได้'
       },
       power: {
-        title: 'Power',
-        reset: 'Reset',
-        power: 'Power',
-        powerShort: 'Power (short click)',
-        powerLong: 'Power (long click)'
+        title: 'เปิด/ปิด',
+        reset: 'รีเช็ท',
+        power: 'เปิด/ปิด',
+        powerShort: 'เปิด/ปิด (กดปล่อย)',
+        powerLong: 'เปิด/ปิด (กดค้าง)'
       },
       settings: {
         title: 'Settings',
