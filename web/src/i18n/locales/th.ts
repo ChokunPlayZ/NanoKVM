@@ -86,26 +86,26 @@ const en = {
         resetHid: 'รีเซ็ต HID'
       },
       image: {
-        title: 'Image',
-        loading: 'Loading...',
-        empty: 'Nothing Found',
-        mountFailed: 'Mount Failed',
+        title: 'ดิสก์จำลอง',
+        loading: 'กำลังโหลด...',
+        empty: 'ไม่พบดิสก์',
+        mountFailed: 'การติดตั้งล้มเหลว',
         mountDesc:
-          "In some systems, it's necessary to eject the virtual disk on the remote host before mounting the image.",
+          "ในบางระบบ, จะต้อง eject ดิสก์จำลองก่อนที่จะใส่ดิสก์ใหม่.",
         tips: {
-          title: 'How to upload',
-          usb1: 'Connect the NanoKVM to your computer via USB.',
-          usb2: 'Ensure that the virtual disk is mounted (Settings - Virtual Disk).',
-          usb3: 'Open the virtual disk on your computer and copy the image file to the root directory of the virtual disk.',
-          scp1: 'Make sure the NanoKVM and your computer are on the same local network.',
-          scp2: 'Open a terminal on your computer and use the SCP command to upload the image file to the /data directory on the NanoKVM.',
-          scp3: 'Example: scp your-image-path root@your-nanokvm-ip:/data',
-          tfCard: 'TF Card',
-          tf1: 'This method is supported on Linux system',
-          tf2: 'Get TF card from the NanoKVM (for the FULL version, disassemble the case first).',
-          tf3: 'Insert the TF card into a card reader and connect it to your computer.',
-          tf4: 'Copy the image file to the /data directory on the TF card.',
-          tf5: 'Insert the TF card into the NanoKVM.'
+            title: 'วิธีการอัปโหลด',
+            usb1: 'เชื่อมต่อ NanoKVM กับคอมพิวเตอร์ของคุณผ่าน USB',
+            usb2: 'ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานดิสก์เสมือนแล้ว (ตั้งค่า - ดิสก์เสมือน)',
+            usb3: 'เปิดดิสก์บนคอมพิวเตอร์ของคุณและคัดลอกไฟล์อิมเมจไปยังไดเรกทอรีหลักของดิสก์',
+            scp1: 'ตรวจสอบให้แน่ใจว่า NanoKVM และคอมพิวเตอร์ของคุณอยู่ในเครือข่ายเดียวกัน',
+            scp2: 'เปิดเทอร์มินัลบนคอมพิวเตอร์ของคุณและใช้คำสั่ง SCP เพื่ออัปโหลดไฟล์อิมเมจไปยังไดเรกทอรี /data บน NanoKVM',
+            scp3: 'ตัวอย่าง: scp <ที่อยู่ของไฟล์> root@<ip อุปกรณ์>:/data',
+            tfCard: 'การ์ด TF',
+            tf1: 'วิธีนี้รองรับแค่บนระบบปฏิบัติการ Linux',
+            tf2: 'นำการ์ด TF ออกจาก NanoKVM',
+            tf3: 'ใส่การ์ด TF ลงในเครื่องอ่านการ์ดและเชื่อมต่อกับคอมพิวเตอร์ของคุณ',
+            tf4: 'คัดลอกไฟล์อิมเมจไปยังไดเรกทอรี /data บนการ์ด TF',
+            tf5: 'ใส่การ์ด TF กลับเข้า NanoKVM'
         }
       },
       script: {
