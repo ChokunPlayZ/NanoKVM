@@ -40,11 +40,11 @@ const en = {
       },
       wifi: {
         title: 'Wi-Fi',
-        description: 'Configure Wi-Fi for NanoKVM',
-        success: 'Please check the network status of NanoKVM and visit the new IP address.',
-        failed: 'Operation failed, please try again.',
-        confirmBtn: 'Ok',
-        finishBtn: 'Finished'
+        description: 'ตั้งค้า Wi-Fi สำหรับ NanoKVM',
+        success: 'กรุณาตรวจสอบสถานะเครื่องข่ายของ NanoKVM และไปที่ IP address ใหม่',
+        failed: 'เกิดข้อผิดพลาด กรุณาลองใหม่.',
+        confirmBtn: 'โอเค',
+        finishBtn: 'เสร็จ'
       },
       screen: {
         video: 'Video Mode',
