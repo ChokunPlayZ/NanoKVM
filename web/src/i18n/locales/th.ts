@@ -237,14 +237,14 @@ const en = {
           cancelBtn: 'ไม่ใช่'
         },
         update: {
-          title: 'Check for Updates',
-          queryFailed: 'Get version failed',
-          updateFailed: 'Update failed. Please retry.',
-          isLatest: 'You already have the latest version.',
-          available: 'An update is available. Are you sure to update?',
-          updating: 'Update started. Please wait...',
-          confirm: 'Confirm',
-          cancel: 'Cancel'
+            title: 'ตรวจสอบการอัปเดต',
+            queryFailed: 'ไม่สามารถรับข้อมูลเวอร์ชันได้',
+            updateFailed: 'การอัปเดตล้มเหลว กรุณาลองใหม่',
+            isLatest: 'คุณมีเวอร์ชันล่าสุดแล้ว',
+            available: 'มีการอัปเดตใหม่ คุณแน่ใจที่จะอัปเดตหรือไม่?',
+            updating: 'กำลังเริ่มอัปเดต กรุณารอสักครู่...',
+            confirm: 'ยืนยัน',
+            cancel: 'ยกเลิก'
         },
         account: {
           title: 'Account',
