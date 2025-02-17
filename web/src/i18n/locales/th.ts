@@ -47,22 +47,22 @@ const en = {
         finishBtn: 'เสร็จ'
       },
       screen: {
-        video: 'Video Mode',
-        resolution: 'Resolution',
-        auto: 'Automatic',
+        video: 'โหมดวีดีโอ',
+        resolution: 'ความคมชัด',
+        auto: 'อัตโนมัติ',
         autoTips:
-          "Screen tearing or mouse offset may occur at specific resolutions. Consider adjusting the remote host's resolution or disable automatic mode.",
+          "อาการภาพฉีกขาดหรือเมาส์ไม่ตรงตำแหน่งอาจเกิดขึ้นที่ความละเอียดบางระดับ แนะนำให้ปรับความละเอียดของคอมพิวเตอร์ต้นทางหรือปิดโหมดอัตโนมัติ",
         fps: 'FPS',
-        customizeFps: 'Customize',
-        quality: 'Quality',
-        qualityLossless: 'Lossless',
-        qualityHigh: 'High',
-        qualityMedium: 'Medium',
-        qualityLow: 'Low',
-        frameDetect: 'Frame Detect',
+        customizeFps: 'กำหนดเอง',
+        quality: 'คุณภาพ',
+        qualityLossless: 'ไม่สูญเสียคุณภาพ',
+        qualityHigh: 'สูง',
+        qualityMedium: 'กลาง',
+        qualityLow: 'ต่ำ',
+        frameDetect: 'ตรวจจับเฟรม',
         frameDetectTip:
-          "Calculate the difference between frames. Stop transmitting video stream when no changes are detected on the remote host's screen.",
-        resetHdmi: 'Reset HDMI'
+          "ระบบจะคำนวณความแตกต่างระหว่างเฟรม และหยุดส่งสตรีมวิดีโอเมื่อไม่พบการเปลี่ยนแปลงบนหน้าจอของคอมพิวเตอร์ต้นทาง",
+        resetHdmi: 'รีเช็ท HDMI'
       },
       keyboard: {
         paste: 'Paste',
