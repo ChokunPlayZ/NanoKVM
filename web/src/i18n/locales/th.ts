@@ -151,18 +151,18 @@ const en = {
         powerLong: 'เปิด/ปิด (กดค้าง)'
       },
       settings: {
-        title: 'Settings',
+        title: 'การตั้งค่า',
         about: {
-          title: 'About NanoKVM',
-          information: 'Information',
+          title: 'เกี๋ยวกับ NanoKVM',
+          information: 'ข้อมูล',
           ip: 'IP',
           mdns: 'mDNS',
-          application: 'Application Version',
-          applicationTip: 'NanoKVM web application version',
-          image: 'Image Version',
-          imageTip: 'NanoKVM system image version',
-          deviceKey: 'Device Key',
-          community: 'Community'
+          application: 'เวอร์ชั่นแอปพิเคชั่น',
+          applicationTip: 'เวอร์ชั่นเว็บ NanoKVM',
+          image: 'เวอร์ชั่น Image ระบบ',
+          imageTip: 'เวอร์ชั่น Image ระบบ NanoKVM',
+          deviceKey: 'คีย์อุปกรณ์',
+          community: 'ชุมชน'
         },
         appearance: {
           title: 'Appearance',
