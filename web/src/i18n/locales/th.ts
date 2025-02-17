@@ -2,8 +2,8 @@ const en = {
     translation: {
       head: {
         desktop: 'Remote Desktop',
-        login: 'Login',
-        changePassword: 'Change Password',
+        login: 'เข้าสู่ระบบ',
+        changePassword: 'เปลี่ยนรหัสผ่าน',
         terminal: 'Terminal',
         wifi: 'Wi-Fi'
       },
