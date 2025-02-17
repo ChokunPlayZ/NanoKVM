@@ -122,20 +122,20 @@ const en = {
         close: 'ปิด'
     },
       terminal: {
-        title: 'Terminal',
-        nanokvm: 'NanoKVM Terminal',
-        serial: 'Serial Port Terminal',
+        title: 'เทอร์มินอล',
+        nanokvm: 'เทอร์มินอลของ NanoKVM',
+        serial: 'เทอร์มินอลของ Serial Port',
         serialPort: 'Serial Port',
-        serialPortPlaceholder: 'Please enter the serial port',
+        serialPortPlaceholder: 'กรุณาเลือก serial port',
         baudrate: 'Baud rate',
-        confirm: 'Ok'
+        confirm: 'ยืนยัน'
       },
       wol: {
         title: 'Wake-on-LAN',
-        sending: 'Sending command...',
-        sent: 'Command sent',
-        input: 'Please enter the MAC',
-        ok: 'Ok'
+        sending: 'กำลังส่งคำสั่ง...',
+        sent: 'ส่งคำสั่งแล้ว',
+        input: 'กรุณาใส่ MAC Address ของเครื่องที่ต้องการปลุก',
+        ok: 'ยืนยัน'
       },
       download: {
         title: 'Download Image',
