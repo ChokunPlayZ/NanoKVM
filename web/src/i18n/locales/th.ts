@@ -109,18 +109,18 @@ const en = {
         }
       },
       script: {
-        title: 'Script',
-        upload: 'Upload',
-        run: 'Run',
-        runBackground: 'Run Background',
-        runFailed: 'Run failed',
-        attention: 'Attention',
-        delDesc: 'Are you sure to delete this file?',
-        confirm: 'Yes',
-        cancel: 'No',
-        delete: 'Delete',
-        close: 'Close'
-      },
+        title: 'สคริปต์',
+        upload: 'อัปโหลด',
+        run: 'เรียกใช้',
+        runBackground: 'เรียกใช้ในพื้นหลัง',
+        runFailed: 'การเรียกใช้ล้มเหลว',
+        attention: 'ความสนใจ',
+        delDesc: 'คุณแน่ใจที่จะลบไฟล์นี้หรือไม่?',
+        confirm: 'ใช่',
+        cancel: 'ไม่ใช่',
+        delete: 'ลบ',
+        close: 'ปิด'
+    },
       terminal: {
         title: 'Terminal',
         nanokvm: 'NanoKVM Terminal',
