@@ -172,33 +172,33 @@ const en = {
             menuBarDesc: 'แสดงไอคอนในแถบเมนู'
         },
         device: {
-          title: 'Device',
+          title: 'อุปกรณ์',
           oled: {
             title: 'OLED',
-            description: 'OLED screen automatically sleep',
-            0: 'Never',
-            15: '15 sec',
-            30: '30 sec',
-            60: '1 min',
-            180: '3 min',
-            300: '5 min',
-            600: '10 min',
-            1800: '30 min',
-            3600: '1 hour'
+            description: 'เวลาก่อนจอ OLED จะปิดอัตโนมัติ',
+            0: 'ไม่เลย',
+            15: '15 วินาที',
+            30: '30 วินาที',
+            60: '1 นาที',
+            180: '3 นาทร',
+            300: '5 นาที',
+            600: '10 นาที',
+            1800: '30 นาที',
+            3600: '1 ชั่วโมง'
           },
           wifi: {
             title: 'Wi-Fi',
-            description: 'Configure Wi-Fi',
-            setBtn: 'Config'
+            description: 'ตั้งค่า Wi-Fi',
+            setBtn: 'ยืนยัน'
           },
           ssh: {
-            description: 'Enable SSH remote access',
-            tip: 'Set a strong password before enabling (Account - Change Password)'
+            description: 'เปิดใช้งาน SSH',
+            tip: 'ตั้งรหัสผ่านทีปลอดถัยก่อนเปิดใช้งาน (บัญชี - เปลี่ยนรหัสผ่าน)'
           },
-          disk: 'Virtual Disk',
-          diskDesc: 'Mount virtual U-disk on the remote host',
-          network: 'Virtual Network',
-          networkDesc: 'Mount virtual network card on the remote host'
+          disk: 'ดิสก์จำลอง',
+          diskDesc: 'เปิดใช้งาน U-disk จำลอง',
+          network: 'เครือข่ายจำลอง',
+          networkDesc: 'เปิดใช้งานอุปกรณ์เครือข่ายจำลอง'
         },
         tailscale: {
           title: 'Tailscale',
