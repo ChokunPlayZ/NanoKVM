@@ -65,11 +65,11 @@ const en = {
         resetHdmi: 'รีเช็ท HDMI'
       },
       keyboard: {
-        paste: 'Paste',
-        tips: 'Only standard keyboard letters and symbols are supported',
-        placeholder: 'Please input',
-        submit: 'Submit',
-        virtual: 'Keyboard',
+        paste: 'วาง',
+        tips: 'รองรับเฉพาะตัวอักษรและสัญลักษณ์มาตรฐานของแป้นพิมพ์เท่านั้น',
+        placeholder: 'กรุณาป้อน',
+        submit: 'ยืนยัน',
+        virtual: 'คีบอร์ด',
         ctrlaltdel: 'Ctrl+Alt+Del'
       },
       mouse: {
