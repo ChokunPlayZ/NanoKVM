@@ -34,3 +34,22 @@ export function connectWifi(ssid: string, password: string) {
   };
   return http.post('/api/network/wifi', data);
 }
+
+// get network information
+export function getNetwork() {
+  return http.get('/api/network/ip');
+}
+
+// set network settings (dhcp/static)
+export function setNetworkSettings(mode: ('static' | 'dhcp'), dns?: string[], ip?: string, netmask?: string, gateway?: string) {
+  const data: any = {
+    mode,
+    dns
+  };
+
+  if (ip) data.ip = ip;
+  if (netmask) data.netmask = netmask;
+  if (gateway) data.gateway = gateway;
+
+  return http.post('/api/network/ip', data);
+}
